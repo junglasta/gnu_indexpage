@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#indexEsg .socialDiv ul {
+    overflow:hidden; margin-top:50px; display: flex;
+}
+#indexEsg .socialDiv ul li {
+    cursor:pointer;position:relative; width:373px; height:398px; text-align:center; margin-right:30px; overflow:hidden; box-sizing:border-box; 
+}
+#indexEsg .socialDiv ul li:before{
+    content: ''; display: block; position: absolute; top: 0px; left: 0; right: 0; box-sizing: border-box; width: 373px; height:398px; margin: 0 auto;  background-color: rgba(0, 0, 0, 0); transition: all 0.4s;
+}
+#indexEsg .socialDiv ul li:hover:before {
+    background-color:rgba(0,0,0,0.3);
+}
+#indexEsg .socialDiv ul li:nth-child(1) {border-top-left-radius:30px;}
+#indexEsg .socialDiv ul li:nth-child(2) {}
+#indexEsg .socialDiv ul li:nth-child(3) { margin-right:0; border-bottom-right-radius:30px; }
+#indexEsg .socialDiv ul li:nth-child(1) span { width:84px; height:112px; left: 9rem;}
+#indexEsg .socialDiv ul li:nth-child(2) span { width:103px; height:109px; left: 8rem;}
+#indexEsg .socialDiv ul li:nth-child(3) span { width:63px; height:112px; left: 10rem;}
+#indexEsg .socialDiv ul li:nth-child(1) h3 { left: 9rem; }
+#indexEsg .socialDiv ul li:nth-child(2) h3 { left: 8rem; }
+#indexEsg .socialDiv ul li:nth-child(3) h3 { left: 9rem;}
+#indexEsg .socialDiv ul li h3 {
+    position:absolute; top: 15rem;
+    font-weight:400; font-size:24px; color:#fff; font-family:'Noto Sans KR'; margin-top:20px;
+}
+#indexEsg .socialDiv ul li span {
+    margin-top:135px; position:absolute;display: inline-block;
+}
+#indexEsg .socialDiv ul li a {
+    display:block; position: relative; width:100%; height:100%; text-decoration: none;
+}

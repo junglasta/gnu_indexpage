@@ -1,0 +1,9 @@
+*.ai
+*.psd
+*.scss
+*.pdf
+*.png
+*.jpg
+*.gif
+.vscode/
+img/

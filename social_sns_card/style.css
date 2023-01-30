@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#snsMedia .snsDiv .snsDiv_con2 {overflow:hidden; margin-top:20px; display: flex;}
+#snsMedia .snsDiv .snsDiv_con2 li {
+    overflow:hidden; margin-right:13px;width:285px; height:285px; background:#fff; border:1px solid #ddd; 
+    position:relative; box-sizing:border-box;
+}
+#snsMedia .snsDiv .snsDiv_con2 li:last-child {margin-right:0px; }
+#snsMedia .snsDiv .snsDiv_con2 li img {width:100%; height:100%; -webkit-transition:opacity 0.35s, -webkit-transform 0.35s; transition:opacity 0.35s, transform 0.35s;-webkit-transform:scale(1); transform:scale(1);}
+#snsMedia .snsDiv .snsDiv_con2 li img:hover {transform:scale(1.12)}
+#snsMedia .snsDiv .snsDiv_con2 li:nth-child(2n+2) {padding:0; border:0; background:0;}
+#snsMedia .snsDiv .snsDiv_con2 li a > i {width:35px; height:35px; z-index:2; background-image:url(/sjy/img/sns_icons.png); position:absolute; right:15px; top:15px;}
+#snsMedia .snsDiv .snsDiv_con2 li:nth-child(1) i {background-position:-315px 0px}
+#snsMedia .snsDiv .snsDiv_con2 li:nth-child(2) i {background-position:-463px 0px;}
+#snsMedia .snsDiv .snsDiv_con2 li:nth-child(3) i {background-position:-315px 0px;}
+#snsMedia .snsDiv .snsDiv_con2 li:nth-child(4) i {background-position:-463px 0px;}
+
+
+
+
+
+
+/* #snsMedia .snsDiv .snsDiv_con2 li p {text-align:left; } */
+#snsMedia .snsDiv .snsDiv_con2 li a {display:block; width:100%; height:100%}
+/* #snsMedia .snsDiv .snsDiv_con2 li .snsKind {font-size:14px; color:#333; font-family:'HarimB';} */
+/* #snsMedia .snsDiv .snsDiv_con2 li .tit {margin:38px 0; font-size:20px; color:#191919; font-weight:500; display: inline-block; overflow: hidden; text-overflow: ellipsis; width:100%; white-space: normal; line-height: 1.4; height: 3em; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp:2; -webkit-box-orient: vertical; } */
+/* #snsMedia .snsDiv .snsDiv_con2 li .txt {transition:0.5s; position:relative; bottom:0; font-size:16px; color:#333; display: inline-block; overflow: hidden; text-overflow: ellipsis; width:100%; white-space: normal; line-height: 1.6; height:4.8em; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp:3; -webkit-box-orient: vertical; } */
+/* #snsMedia .snsDiv .snsDiv_con2 li:hover .txt {bottom:-130px;} */
+/* #snsMedia .snsDiv .snsDiv_con2 li .go {transition:0.5s; position:relative; bottom:-130px; font-size:16px; color:#333;} */
+/* #snsMedia .snsDiv .snsDiv_con2 li .go i{position:absolute; right:0px; bottom:8px; width:38px; height:12px; background:url(/sjy/img/go_sns.png) no-repeat 0 0;} */
+/* #snsMedia .snsDiv .snsDiv_con2 li:hover .go {bottom:10px;} */
